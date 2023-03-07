@@ -1,3 +1,5 @@
+I hope it will be helpful for myself and those reading this. <3
+
 GIT : Global Infomation Tracker
 
 Git Flow : init > add > commit > remote > push
