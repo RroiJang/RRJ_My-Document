@@ -1,0 +1,19 @@
+ลองเปรียบเทียบ Code เฉยๆ
+
+Exploring Docker Desktop with a quick example
+
+	docker run -d -p 80:80 docker/getting-started
+
+How to use this image
+Hosting some simple static content
+
+	docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+	docker run --name some-nginx -d some-content-nginx
+
+Exposing external port
+
+	docker run --name some-nginx -d -p 8080:80 some-content-nginx
+
+Docker rename
+
+	docker rename CONTAINER NEW_NAME
