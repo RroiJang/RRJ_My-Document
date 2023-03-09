@@ -24,12 +24,16 @@ docker container ls rm  =  docker ps rm
 docker exec -it alpine bash
 
 Add on
--a / ls / rm / run / start / stop / -it:interactive --> สามารถพิมพ์เล่นได้...มั้ง
+-a / ls / rm / run / start / stop /
+-it	:interactive --> สามารถเข้าไปพิมพ์เล่นได้...มั้ง /
+-d	:detached mode --> คอนเทนเนอร์ทำงานในพื้นหลัง /
 
 # alpine
 docker run alpine
 docker run alpine cal #run single command then exit
 
+# Port มาตราฐาน
+Mysql 3306
 ---------------------------------------------------------------------------------------------------
 ลองเปรียบเทียบ Code เฉยๆ
 
