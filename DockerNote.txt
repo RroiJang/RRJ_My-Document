@@ -1,13 +1,13 @@
-# basic docker commands.	style management command
+# basic docker commands.		style management command
 
 docker run					
 docker build		
 docker pull					
 docker push
-docker ps				docker container ls
+docker ps					docker container ls
 docker stop
 docker rm
-docker images			docker image ls
+docker images				docker image ls
 docker rm
 docker exec
 
