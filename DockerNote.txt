@@ -1,16 +1,34 @@
-basic docker commands.
+# basic docker commands.		style management command
 
-docker run
-docker build
-docker pull
+docker run					
+docker build		
+docker pull					
 docker push
-docker ps
+docker ps					docker container ls
 docker stop
 docker rm
-docker images
-docker rmi
+docker images				docker image ls
+docker rm
 docker exec
 
+-----------NOTE-----------
+extension
+
+docker --version
+docker image rm
+docker container ls -a  =  docker ps -a
+docker container ls run  =  docker ps run
+docker container ls stop  =  docker ps stop
+docker container ls start  =  docker ps start
+docker container ls rm  =  docker ps rm
+docker exec -it alpine bash
+
+Add on
+-a / ls / rm / run / start / stop / -it:interactive --> สามารถพิมพ์เล่นได้...มั้ง
+
+# alpine
+docker run alpine
+docker run alpine cal #run single command then exit
 
 ---------------------------------------------------------------------------------------------------
 ลองเปรียบเทียบ Code เฉยๆ
