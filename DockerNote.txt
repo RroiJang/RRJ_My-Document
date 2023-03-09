@@ -1,3 +1,18 @@
+basic docker commands.
+
+docker run
+docker build
+docker pull
+docker push
+docker ps
+docker stop
+docker rm
+docker images
+docker rmi
+docker exec
+
+
+---------------------------------------------------------------------------------------------------
 ลองเปรียบเทียบ Code เฉยๆ
 
 Exploring Docker Desktop with a quick example
@@ -17,4 +32,3 @@ Exposing external port
 Docker rename
 
 	docker rename CONTAINER NEW_NAME
-
