@@ -1,0 +1,3 @@
+.sh flie : touch hello.sh
+
+tar flie : tar -czvf filename.tar.gz file1 file2 file3
