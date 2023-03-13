@@ -35,6 +35,9 @@ docker run alpine cal #run single command then exit
 # Port มาตราฐาน
 Mysql 3306
 ---------------------------------------------------------------------------------------------------
+dockerfile --> .dockerignore -->  docker build
+
+---------------------------------------------------------------------------------------------------
 ลองเปรียบเทียบ Code เฉยๆ
 
 Exploring Docker Desktop with a quick example
