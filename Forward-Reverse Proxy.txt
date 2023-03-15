@@ -4,12 +4,12 @@ Forward-Reverse Proxy (ร่างไว้คร่าวๆก่อน แ�
 # Forward Proxy -------------------------------------------------------------------------------------------------------------
 
 			Request from					Request from
-			  x.x.x.x						   x.x.x.x
+			  x.x.x.x					  x.x.x.x
 			<-----------					<-----------
-Client IP x.x.x.x			    Proxy server IP y.y.y.y			    Server IP z.z.z.z
+Client IP x.x.x.x			    Proxy server IP y.y.y.y			  Server IP z.z.z.z
 			----------->					----------->
-			Response to						Response to
-			  x.x.x.x						  x.x.x.x
+			Response to					Response to
+			  x.x.x.x					  x.x.x.x
 											
 Client มีหลายๆตัวที่ Request ขอ Forward Proxy ได้ และ Forward  Proxy ก็มีหลายๆ Forward  Proxy ได้เหมือนกัน
 
@@ -17,12 +17,12 @@ Client มีหลายๆตัวที่ Request ขอ Forward Proxy ไ�
 # Reverse Proxy -------------------------------------------------------------------------------------------------------------
 
 			Request from			Request from					Request from
-			  x.x.x.x			 	  x.x.x.x			 	 		  x.x.x.x
+			  x.x.x.x		 	  x.x.x.x			  		  x.x.x.x
 			<-----------			<-----------					<-----------
-Client IP x.x.x.x			   DNS Firewall			   Proxy server IP y.y.y.y			    Server IP z.z.z.z
+Client IP x.x.x.x			   DNS Firewall			   Proxy server IP y.y.y.y			  Server IP z.z.z.z
 			----------->			----------->					----------->
-			Response to				Response to						Response to
-			  x.x.x.x				  x.x.x.x			 			  x.x.x.x
+			Response to			Response to					Response to
+			  x.x.x.x			  x.x.x.x			 		  x.x.x.x
 
 ฝั่ง Server จะมีหลายตัวเลย จะรู้จักกันแค่ Reverse Proxy กับ Server เท่านั้น  Client เขาไม่สนหรอกว่า Server จะทำงานยังไง
 เขาจะมาสุดทางที่ DNS Firewall ต่อที่ Reverse Proxy แล้วเขา(Client) ก็ได้ข้อมูลกลับไป เช่น NGINX
