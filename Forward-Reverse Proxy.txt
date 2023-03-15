@@ -5,7 +5,7 @@ Forward Proxy
 
 			Request from x.x.x.x					Request from x.x.x.x
 			<-------------------					<-------------------
-Client IP x.x.x.x				    Proxy server IP y.y.y.y					Server IP z.z.z.z
+Client IP x.x.x.x				    Proxy server IP y.y.y.y				     Server IP z.z.z.z
 			------------------->					------------------->
 			Response to x.x.x.x					Response to x.x.x.x
 											
@@ -17,7 +17,7 @@ Reverse Proxy
 
 			 Request from x.x.x.x					Request from x.x.x.x
 			 <-------------------					<-------------------
-Client IP x.x.x.x				    Proxy server IP y.y.y.y	 				Server IP z.z.z.z
+Client IP x.x.x.x				    Proxy server IP y.y.y.y	 			     Server IP z.z.z.z
 			 ------------------->					------------------->
 			 Response to x.x.x.x					Response to x.x.x.x
 
