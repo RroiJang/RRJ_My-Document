@@ -26,7 +26,4 @@ Client IP x.x.x.x			   DNS Firewall			   Proxy server IP y.y.y.y			    Server IP
 
 ฝั่ง Server จะมีหลายตัวเลย จะรู้จักกันแค่ Reverse Proxy กับ Server เท่านั้น  Client เขาไม่สนหรอกว่า Server จะทำงานยังไง
 เขาจะมาสุดทางที่ DNS Firewall ต่อที่ Reverse Proxy แล้วเขา(Client) ก็ได้ข้อมูลกลับไป เช่น NGINX
-<<<<<<< HEAD
 
-=======
->>>>>>> a59150f03678af00875bd2be7df4458c44822de4
