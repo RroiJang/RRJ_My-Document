@@ -1,0 +1,20 @@
+# สรุปในรูปแบบของตัวเอง
+
+CI/CD เป็นกระบวนการทางวิศวกรรมซอฟต์แวร์ ที่เราจะทำให้กระบวนการทำงานตั้งแต่ต้นจนจบทำให้ทำโดยอัตโนมัติเองได้
+
+CI : Continuous Integration
+	สามารถรวมโค้ดต่างๆของเพื่อนเราที่ทำในโปรเจครวมเข้ามาเป็นตัวเดียวกันได้ โดยอัตโนมัติ
+
+CD : Continuous Deployment, Continuous Dalivery
+
+	Continuous Deployment
+		Build --> Deploy to Production
+
+	Continuous Dalivery
+		Build --> Deploy to Production (รอคำสั่งจากทาง Dev หรือรอคำสั่งเฉพาะ)
+
+# Program ที่ใช้ : Git, CICD
+
+# ศัพท์แสง
+	Job		อะไรก็แล้วแต่ที่ต้องการทำให้เป็นอัตโนมัติ (สามารถทำเป็น Palalel ได้)
+	State		เมื่อไหร่ที่เราจะให้ Jobs นั้นๆทำงาน
