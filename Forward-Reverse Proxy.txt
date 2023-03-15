@@ -1,7 +1,7 @@
 Forward-Reverse Proxy (ร่างไว้คร่าวๆก่อน ยังไม่เข้าใจดี)
 
 
-# Forward Proxy
+# Forward Proxy -------------------------------------------------------------------------------------------------------------
 
 			Request from					Request from
 			  x.x.x.x						  x.x.x.x
@@ -14,7 +14,7 @@ Client IP x.x.x.x			    Proxy server IP y.y.y.y			    Server IP z.z.z.z
 Client มีหลายๆตัวที่ Request ขอ Forward Proxy ได้ และ Forward  Proxy ก็มีหลายๆ Forward  Proxy ได้เหมือนกัน
 
 
-# Reverse Proxy
+# Reverse Proxy -------------------------------------------------------------------------------------------------------------
 
 			Request from			Request from					Request from
 			  x.x.x.x			 	  x.x.x.x			 	 		  x.x.x.x
