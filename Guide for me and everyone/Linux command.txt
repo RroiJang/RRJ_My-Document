@@ -1,0 +1,17 @@
+ที่ฝึก
+https://linuxsurvival.com/linux-tutorial-introduction/
+https://linuxjourney.com/lesson/the-shell
+
+
+ls 		เช็ครายการในโฟลเดอร์ที่อยู่ปัจจุบัน
+
+more	 	ใช้เพื่อดูเนื้อหาของไฟล์ ตัวอย่างเช่น หากต้องการดูเนื้อหาของไฟล์ "cobras" จะต้องพิมพ์  more cobras
+
+mkdir 	สร้าง directory
+
+mv 		ย้ายไฟล์ที่ต้องการย้าย
+		การเปลี่ยนชื่อไฟล์เป็นเพียงกรณีของการ "mv" ไฟล์จากชื่อหนึ่งไปยังอีกชื่อหนึ่ง เช่น ถ้าจะเปลี่ยนชื่อไฟล์ "wolves" เป็น "coyotes"
+		ก็ให้พิมพ์ mv wolves coyotes
+
+cd		change directory
+
