@@ -30,3 +30,5 @@ man - Display the manual page for a command
 sudo - Run a command with elevated privileges (as root)
 ps - Display running processes
 kill - Terminate a process
+
+--------------------------------------------------------------------
