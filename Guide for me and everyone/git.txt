@@ -21,13 +21,12 @@ git branch -M main
 git push -u origin main
 
 
+## หลังจากเปลี่ยน branch แล้วจะแสดงข้อความคล้ายๆแบบนี้ขึ้นมา
 
 git branch -m osu RRJ
 git fetch origin
 git branch -u origin/RRJ RRJ
 git remote set-head origin -a
-
-git ls-remote --heads origin <branch_name>	หากต้องการตรวจสอบว่ามีสาขาอยู่ในที่เก็บระยะไกลหรือไม่
 
 Ref GitHub
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -103,6 +102,10 @@ git branch my_new_branch				ถ้าเราจะสร้าง brach ขึ
 git checkout my_new_branch				ถ้าหากเราต้องการย้ายไป my_new_branch
 
 git branch --delete som_branch_to_delete		ถ้าต้องการลบ branch ก็เพียงพิมพ์คำสั่ง
+
+## เพิ่มเติม
+
+git ls-remote --heads origin <branch_name>	หากต้องการตรวจสอบว่ามีสาขาอยู่ในที่เก็บระยะไกลหรือไม่
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 Git -m / -M
