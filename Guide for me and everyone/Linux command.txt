@@ -9,9 +9,24 @@ more	 	ใช้เพื่อดูเนื้อหาของไฟล์ 
 
 mkdir 	สร้าง directory
 
+rmdir		ลบ directory (delete an empty directory)
+
 mv 		ย้ายไฟล์ที่ต้องการย้าย
 		การเปลี่ยนชื่อไฟล์เป็นเพียงกรณีของการ "mv" ไฟล์จากชื่อหนึ่งไปยังอีกชื่อหนึ่ง เช่น ถ้าจะเปลี่ยนชื่อไฟล์ "wolves" เป็น "coyotes"
 		ก็ให้พิมพ์ mv wolves coyotes
 
 cd		change directory
 
+
+"Draft"
+
+touch - Create a new empty file
+cp - Copy files and directories
+mv - Move or rename files and directories
+rm - Remove files and directories
+cat - Concatenate files and print the output
+grep - Search for a pattern in a file
+man - Display the manual page for a command
+sudo - Run a command with elevated privileges (as root)
+ps - Display running processes
+kill - Terminate a process
