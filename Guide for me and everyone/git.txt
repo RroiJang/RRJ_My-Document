@@ -20,12 +20,23 @@ git remote add origin https://github.com/pongsagorn-chumnankul/RRJ_text.git
 git branch -M main
 git push -u origin main
 
+
+
+git branch -m osu RRJ
+git fetch origin
+git branch -u origin/RRJ RRJ
+git remote set-head origin -a
+
+git ls-remote --heads origin <branch_name>	หากต้องการตรวจสอบว่ามีสาขาอยู่ในที่เก็บระยะไกลหรือไม่
+
 Ref GitHub
 ---------------------------------------------------------------------------------------------------------------------------------------
 -m "Move"
 -M "Move Force"
 -u "set-upstream"
 -r "remote"
+-a "all"
+
 
 git init 	เป็นคำสั่งที่มีไว้ใช้งานที่โฟลเดอร์งานนั้น เช่น
 		$ cd workspace (ถ้าอยู่ในงานตัวเองแล้วก็ไม่ต้องสนใจ)
@@ -70,6 +81,12 @@ git fetch	ใช้ตรวจสอบว่าไฟล์ ในlocal กั
 		ChatGPT : เพื่อดึงการเปลี่ยนแปลงจากที่เก็บระยะไกลไปยังที่เก็บในเครื่องของคุณ
 		$ git fetch
 
+		หากลบรีโมต branch สำเร็จโดยใช้คำสั่ง git push แต่ branch ยังคงแสดงอยู่เมื่อคุณเรียกใช้คำสั่ง git branch -r คุณอาจต้องอัปเดตที่เก็บ Git ในเครื่องของคุณเพื่อแสดงการ			เปลี่ยนแปลงที่ทำกับรีโมตที่เก็บ สามารถทำได้โดยใช้คำสั่งต่อไปนี้
+
+		$ git fetch --prune
+
+		ตัวเลือก --prune บอกให้ Git ลบกิ่งก้านการติดตามระยะไกลที่ไม่มีอยู่บนรีโมทอีกต่อไป
+
 
 git pull	เป็นการดึงไฟล์ที่มีการเปลี่ยนแปลงใน remote มาเปลี่ยนแปลงใน local ซึ่งเป็นการใช้คำสั่ง git fetch ตามด้วย git merge
 		$ git pull
@@ -86,7 +103,6 @@ git branch my_new_branch				ถ้าเราจะสร้าง brach ขึ
 git checkout my_new_branch				ถ้าหากเราต้องการย้ายไป my_new_branch
 
 git branch --delete som_branch_to_delete		ถ้าต้องการลบ branch ก็เพียงพิมพ์คำสั่ง
-
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 Git -m / -M
