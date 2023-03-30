@@ -25,6 +25,7 @@ Ref GitHub
 -m "Move"
 -M "Move Force"
 -u "set-upstream"
+-r "remote"
 
 git init 	เป็นคำสั่งที่มีไว้ใช้งานที่โฟลเดอร์งานนั้น เช่น
 		$ cd workspace (ถ้าอยู่ในงานตัวเองแล้วก็ไม่ต้องสนใจ)
