@@ -18,7 +18,7 @@ mv 		ย้ายไฟล์ที่ต้องการย้าย
 cd		change directory
 
 
-"Draft"
+#### Draft ####
 
 touch - Create a new empty file
 cp - Copy files and directories
