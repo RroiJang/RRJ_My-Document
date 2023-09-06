@@ -5,6 +5,8 @@ GIT : Global Infomation Tracker
 Git Flow : init > add > commit > remote > push
 But... if you already did, just do this : add > commit > push
 
+init > branch -M main > remote add > add > commit > push
+
 …or create a new repository on the command line
 echo "# RRJ_text" >> README.md
 git init
